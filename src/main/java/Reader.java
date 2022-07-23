@@ -23,10 +23,6 @@ public class Reader {
         }
     }
 
-    private Reader(FileInputStream fis) {
-        this.fis = fis;
-    }
-
     static XSSFWorkbook workbook;
 
     static {
@@ -37,9 +33,15 @@ public class Reader {
         }
     }
 
+    private Reader(FileInputStream fis, XSSFWorkbook workbook) {
+        this.fis = fis;
+        this.workbook = workbook;
+    }
+
+
+
     static ArrayList<Student> students = new ArrayList<>();
     static ArrayList<University> universities = new ArrayList<>();
-
 
     public static void readStudents() {
         XSSFSheet sheet = workbook.getSheet("Студенты");

@@ -2,11 +2,10 @@ package modelclass;
 
 public enum StudyProfile {
 
-    YURISPRUDENCIYA ("Юриспруденция"),
-    POLITOLOGIYA ("Политология"),
-    FILOSOFIYA("Философия"),
+    PHYSICS ("Физика"),
     MEDICINE("Медицина"),
-    AVIATION ("Авиация");
+    LINGUISTICS ("Лингвистика"),
+    MATHEMATICS ("Матемактика");
 
 
 

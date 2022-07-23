@@ -14,7 +14,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Студент:" + "\n" +
+        return "\n" + "Студент: " + "\n" +
                 "полное имя:'" + fullName + '\'' +
                 ", ID Университета:'" + universityId + '\'' +
                 ", текущий номер курса:" + currentCourseNumber +

@@ -15,7 +15,7 @@ public class University {
 
     @Override
     public String toString() {
-        return "Университет:" + "\n" +
+        return "\n" + "Университет: " + "\n" +
                 "ID Университета:'" + id + '\'' +
                 ", полное название:'" + fullName + '\'' +
                 ", сокращённое название:'" + shortName + '\'' +

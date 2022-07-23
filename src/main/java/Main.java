@@ -1,14 +1,13 @@
-import modelclass.Student;
-import modelclass.StudyProfile;
-import modelclass.University;
+import java.io.IOException;
 
 public class Main {
 
-    public static void main(String[] args) {
-        University university = new University("1", "КНИТУ им. А.Н. Туполева", "КАИ", 1932, StudyProfile.AVIATION);
-        Student student = new Student("Иванов Иван Иванович", "1", 1, 4.2f);
+    public static void main(String[] args) throws IOException {
+        Reader.readStudents();
+        System.out.println(Reader.students);
 
-        System.out.println(university);
-        System.out.println(student);
+        Reader.readUniversity();
+        System.out.println(Reader.universities);
+
     }
 }

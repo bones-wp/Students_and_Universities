@@ -34,8 +34,8 @@ public class Reader {
     }
 
     private Reader(FileInputStream fis, XSSFWorkbook workbook) {
-        this.fis = fis;
-        this.workbook = workbook;
+        Reader.fis = fis;
+        Reader.workbook = workbook;
     }
 
 
@@ -45,20 +45,20 @@ public class Reader {
 
     public static void readStudents() {
         XSSFSheet sheet = workbook.getSheet("Студенты");
-        Iterator iterator = sheet.iterator();
+        Iterator<Row> iterator = sheet.iterator();
         iterator.next();
         while (iterator.hasNext()) {
-            Row row = (Row) iterator.next();
+            Row row = iterator.next();
             students.add(new Student(row.getCell(1).getStringCellValue(), row.getCell(0).getStringCellValue(),
                     (int) row.getCell(2).getNumericCellValue(), (float) row.getCell(3).getNumericCellValue()));
         }
     }
     public static void readUniversity() {
         XSSFSheet sheet = workbook.getSheet("Университеты");
-        Iterator iterator = sheet.iterator();
+        Iterator<Row> iterator = sheet.iterator();
         iterator.next();
         while (iterator.hasNext()) {
-            Row row = (Row) iterator.next();
+            Row row = iterator.next();
 
             String param = row.getCell(4).getStringCellValue();
             StudyProfile profile = StudyProfile.valueOf(param);

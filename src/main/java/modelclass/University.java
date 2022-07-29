@@ -20,7 +20,7 @@ public class University {
                 ", полное название:'" + fullName + '\'' +
                 ", сокращённое название:'" + shortName + '\'' +
                 ", год основания:" + yearOfFoundation +
-                ", mainProfile=" + mainProfile;
+                ", профиль: " + mainProfile;
     }
 
     public String getId() {

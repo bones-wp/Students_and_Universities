@@ -10,6 +10,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 public class Reader {
 
@@ -40,8 +41,9 @@ public class Reader {
 
 
 
-    static ArrayList<Student> students = new ArrayList<>();
-    static ArrayList<University> universities = new ArrayList<>();
+
+    static List <Student> students = new ArrayList<>();
+    static List <University> universities = new ArrayList<>();
 
     public static void readStudents() {
         XSSFSheet sheet = workbook.getSheet("Студенты");

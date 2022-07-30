@@ -39,11 +39,8 @@ public class Reader {
         Reader.workbook = workbook;
     }
 
-
-
-
-    static List <Student> students = new ArrayList<>();
-    static List <University> universities = new ArrayList<>();
+    static List<Student> students = new ArrayList<>();
+    static List<University> universities = new ArrayList<>();
 
     public static void readStudents() {
         XSSFSheet sheet = workbook.getSheet("Студенты");
@@ -55,6 +52,7 @@ public class Reader {
                     (int) row.getCell(2).getNumericCellValue(), (float) row.getCell(3).getNumericCellValue()));
         }
     }
+
     public static void readUniversity() {
         XSSFSheet sheet = workbook.getSheet("Университеты");
         Iterator<Row> iterator = sheet.iterator();

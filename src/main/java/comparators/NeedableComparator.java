@@ -1,4 +1,4 @@
-import comparators.*;
+package comparators;
 
 public class NeedableComparator {
     private NeedableComparator (){};

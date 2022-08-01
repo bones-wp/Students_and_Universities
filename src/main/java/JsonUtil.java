@@ -6,8 +6,6 @@ import modelclass.University;
 
 import java.lang.reflect.Type;
 import java.util.List;
-import java.util.stream.Stream;
-
 
 public class JsonUtil {
 
@@ -23,6 +21,10 @@ public class JsonUtil {
 
     public static String jSonUniversity(University university) {
         return gson.toJson(university);
+    }
+
+    public static Student fromJsonStudent(String string){
+        return gson.fromJson(string, Student.class);
     }
 
     public static String jCollectionStudent() {

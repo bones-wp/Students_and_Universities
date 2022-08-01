@@ -21,8 +21,10 @@ public class Main {
             System.out.println("\n Сериализация коллекции студентов выполнена корректно \n");
         }
 
-        Stream<String> streamStudent = Stream.of(JsonUtil.jSonStudent(Reader.students.get(0)));
-        streamStudent.forEach(System.out::println);
+        String streamStudent = JsonUtil.jSonStudent(Reader.students.get(0));
+
+        Student proba = JsonUtil.fromJsonStudent(streamStudent);
+        System.out.println(proba);
 
 
         Reader.readUniversity();

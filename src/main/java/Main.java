@@ -1,7 +1,10 @@
+import comparators.EnumStudentsCompare;
+import comparators.NeedableComparator;
 import modelclass.Student;
 import modelclass.University;
 
 import java.util.List;
+import java.util.stream.Stream;
 
 public class Main {
 
@@ -18,12 +21,9 @@ public class Main {
             System.out.println("\n Сериализация коллекции студентов выполнена корректно \n");
         }
 
-        //JsonUtil.jSonStudent(Reader.students.get(0));
+        Stream<String> streamStudent = Stream.of(JsonUtil.jSonStudent(Reader.students.get(0)));
+        streamStudent.forEach(System.out::println);
 
-        /*Reader.students
-                .stream()
-                .sorted(NeedableComparator.getStudentsCompare(EnumStudentsCompare.AVGeXAMsCORE))
-                .forEach(System.out::println);*/
 
         Reader.readUniversity();
 
@@ -36,12 +36,9 @@ public class Main {
             System.out.println("\n Сериализация коллекции университетов выполнена корректно \n");
         }
 
+        Stream<String> streamUniversity = Stream.of(JsonUtil.jSonUniversity(Reader.universities.get(0)));
+        streamUniversity.forEach(System.out::println);
 
-        //JsonUtil.jSonUniversity(Reader.universities.get(0));
 
-        /*Reader.universities
-                .stream()
-                .sorted(NeedableComparator.getUniversityCompare(EnumUniversityCompare.ID))
-                .forEach(System.out::println);*/
     }
 }

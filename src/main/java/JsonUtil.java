@@ -6,6 +6,7 @@ import modelclass.University;
 
 import java.lang.reflect.Type;
 import java.util.List;
+import java.util.stream.Stream;
 
 
 public class JsonUtil {
@@ -16,14 +17,12 @@ public class JsonUtil {
             .setPrettyPrinting()
             .create();
 
-    public static void jSonStudent(Student student) {
-        String json = gson.toJson(student);
-        System.out.println(json);
+    public static String jSonStudent(Student student) {
+        return gson.toJson(student);
     }
 
-    public static void jSonUniversity(University university) {
-        String json = gson.toJson(university);
-        System.out.println(json);
+    public static String jSonUniversity(University university) {
+        return gson.toJson(university);
     }
 
     public static String jCollectionStudent() {

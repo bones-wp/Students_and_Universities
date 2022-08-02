@@ -1,8 +1,21 @@
 package modelclass;
 
+import com.google.gson.annotations.SerializedName;
+
 public class University {
-    String id, fullName, shortName;
+    @SerializedName("Идентификатор Университета")
+    String id;
+
+    @SerializedName("Полное название")
+    String fullName;
+
+    @SerializedName("Сокращённое название")
+    String shortName;
+
+    @SerializedName("Год основания")
     int yearOfFoundation;
+
+    @SerializedName("Профиль")
     StudyProfile mainProfile;
 
     public University(String id, String fullName, String shortName, int yearOfFoundation, StudyProfile mainProfile) {

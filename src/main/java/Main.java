@@ -1,9 +1,11 @@
 import comparators.EnumStudentsCompare;
+import comparators.EnumUniversityCompare;
 import comparators.NeedableComparator;
 import modelclass.Student;
 import modelclass.University;
 
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Main {
@@ -21,12 +23,6 @@ public class Main {
             System.out.println("\n Сериализация коллекции студентов выполнена корректно \n");
         }
 
-        String streamStudent = JsonUtil.jSonStudent(Reader.students.get(0));
-
-        Student proba = JsonUtil.fromJsonStudent(streamStudent);
-        System.out.println(proba);
-
-
         Reader.readUniversity();
 
         String jSonUniversity = JsonUtil.jCollectionUniversity();
@@ -38,9 +34,22 @@ public class Main {
             System.out.println("\n Сериализация коллекции университетов выполнена корректно \n");
         }
 
-        Stream<String> streamUniversity = Stream.of(JsonUtil.jSonUniversity(Reader.universities.get(0)));
-        streamUniversity.forEach(System.out::println);
+
+        Reader.students.stream()
+                .sorted(NeedableComparator.getStudentsCompare(EnumStudentsCompare.AVGeXAMsCORE))
+                .forEach(x -> {
+                    System.out.println("\n Сериализованный объект: " + JsonUtil.toJSonStudent(x));
+                    System.out.println("Десериализованный объект: " + JsonUtil.fromJsonStudent(JsonUtil.toJSonStudent(x)));
+                });
+
+        Reader.universities.stream()
+                .sorted(NeedableComparator.getUniversityCompare(EnumUniversityCompare.ID))
+                .forEach(x -> {
+                    System.out.println("\n Сериализованный объект: " + JsonUtil.toJSonUniversity(x));
+                    System.out.println("Десериализованный объект: " + JsonUtil.fromJsonUniversity(JsonUtil.toJSonUniversity(x)));
+                });
 
 
     }
+
 }

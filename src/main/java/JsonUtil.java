@@ -15,16 +15,20 @@ public class JsonUtil {
             .setPrettyPrinting()
             .create();
 
-    public static String jSonStudent(Student student) {
+    public static String toJSonStudent(Student student) {
         return gson.toJson(student);
     }
 
-    public static String jSonUniversity(University university) {
+    public static String toJSonUniversity(University university) {
         return gson.toJson(university);
     }
 
     public static Student fromJsonStudent(String string){
         return gson.fromJson(string, Student.class);
+    }
+
+    public static University fromJsonUniversity (String string) {
+        return gson.fromJson(string, University.class);
     }
 
     public static String jCollectionStudent() {

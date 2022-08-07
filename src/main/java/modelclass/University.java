@@ -4,19 +4,19 @@ import com.google.gson.annotations.SerializedName;
 
 public class University {
     @SerializedName("Идентификатор Университета")
-    String id;
+    private String id;
 
     @SerializedName("Полное название")
-    String fullName;
+    private String fullName;
 
     @SerializedName("Сокращённое название")
-    String shortName;
+    private String shortName;
 
     @SerializedName("Год основания")
-    int yearOfFoundation;
+    private int yearOfFoundation;
 
     @SerializedName("Профиль")
-    StudyProfile mainProfile;
+    private StudyProfile mainProfile;
 
     public University(String id, String fullName, String shortName, int yearOfFoundation, StudyProfile mainProfile) {
         this.id = id;

@@ -1,16 +1,19 @@
 import comparators.EnumStudentsCompare;
 import comparators.EnumUniversityCompare;
 import comparators.NeedableComparator;
+import modelclass.Statistics;
 import modelclass.Student;
 import modelclass.University;
 
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
+import static modelclass.StudyProfile.PHYSICS;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         Reader.readStudents();
 
@@ -49,7 +52,16 @@ public class Main {
                     System.out.println("Десериализованный объект: " + JsonUtil.fromJsonUniversity(JsonUtil.toJSonUniversity(x)));
                 });
 
+        List<Statistics> statistics = new ArrayList<>();
+        String fos = "src/main/resources/statistics.xlsx";
+
+        //statistics.add(new Statistics(PHYSICS, 4.0F, 33, 55, "Казанский придуманный Университет"));
+
+        XlsWriter.writeStatistics(statistics, fos);
 
     }
+
+
+
 
 }

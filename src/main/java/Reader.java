@@ -14,35 +14,14 @@ import java.util.List;
 
 public class Reader {
 
-    static FileInputStream fis;
-
-    static {
-        try {
-            fis = new FileInputStream("src/main/resources/universityInfo.xlsx");
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
-        }
-    }
-
-    static XSSFWorkbook workbook;
-
-    static {
-        try {
-            workbook = new XSSFWorkbook(fis);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
-
-    private Reader(FileInputStream fis, XSSFWorkbook workbook) {
-        Reader.fis = fis;
-        Reader.workbook = workbook;
-    }
+    private Reader() {}
 
     static List<Student> students = new ArrayList<>();
     static List<University> universities = new ArrayList<>();
 
-    public static void readStudents() {
+    public static void readStudents() throws IOException {
+        FileInputStream fis = new FileInputStream("src/main/resources/universityInfo.xlsx");
+        XSSFWorkbook workbook = new XSSFWorkbook(fis);
         XSSFSheet sheet = workbook.getSheet("Студенты");
         Iterator<Row> iterator = sheet.iterator();
         iterator.next();
@@ -53,7 +32,9 @@ public class Reader {
         }
     }
 
-    public static void readUniversity() {
+    public static void readUniversity() throws IOException {
+        FileInputStream fis = new FileInputStream("src/main/resources/universityInfo.xlsx");
+        XSSFWorkbook workbook = new XSSFWorkbook(fis);
         XSSFSheet sheet = workbook.getSheet("Университеты");
         Iterator<Row> iterator = sheet.iterator();
         iterator.next();

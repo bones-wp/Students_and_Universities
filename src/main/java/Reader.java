@@ -14,7 +14,8 @@ import java.util.List;
 
 public class Reader {
 
-    private Reader() {}
+    private Reader() {
+    }
 
     static List<Student> students = new ArrayList<>();
     static List<University> universities = new ArrayList<>();

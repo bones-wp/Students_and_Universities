@@ -9,7 +9,8 @@ import java.util.List;
 
 public class JsonUtil {
 
-    private JsonUtil () {}
+    private JsonUtil() {
+    }
 
     static Gson gson = new GsonBuilder()
             .setPrettyPrinting()
@@ -23,11 +24,11 @@ public class JsonUtil {
         return gson.toJson(university);
     }
 
-    public static Student fromJsonStudent(String string){
+    public static Student fromJsonStudent(String string) {
         return gson.fromJson(string, Student.class);
     }
 
-    public static University fromJsonUniversity (String string) {
+    public static University fromJsonUniversity(String string) {
         return gson.fromJson(string, University.class);
     }
 
@@ -35,17 +36,19 @@ public class JsonUtil {
         return gson.toJson(Reader.students);
     }
 
-    public static String jCollectionUniversity () {
+    public static String jCollectionUniversity() {
         return gson.toJson(Reader.universities);
     }
 
-    public static List<Student> studentsFromJson (String students) {
-        Type type = new TypeToken<List<Student>>(){}.getType();
+    public static List<Student> studentsFromJson(String students) {
+        Type type = new TypeToken<List<Student>>() {
+        }.getType();
         return gson.fromJson(students, type);
     }
 
-    public static List<University> universityFromJson (String university) {
-        Type type = new TypeToken<List<University>>(){}.getType();
+    public static List<University> universityFromJson(String university) {
+        Type type = new TypeToken<List<University>>() {
+        }.getType();
         return gson.fromJson(university, type);
     }
 }

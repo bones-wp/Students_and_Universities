@@ -47,18 +47,18 @@ public class XlsWriter {
         int i = 0;
 
         for (Statistics s : statistics) {
-                row = sheet.createRow(1 + i);
-                cell = row.createCell(0);
-                cell.setCellValue(s.getStudyProfile().toString());
-                cell = row.createCell(1);
-                cell.setCellValue(s.getAvgExamScore());
-                cell = row.createCell(2);
-                cell.setCellValue(s.getSumProfileStudents());
-                cell = row.createCell(3);
-                cell.setCellValue(s.getSumProfileUniversities());
-                cell = row.createCell(4);
-                cell.setCellValue(s.getUniversityName());
-                i++;
+            row = sheet.createRow(1 + i);
+            cell = row.createCell(0);
+            cell.setCellValue(s.getStudyProfile().toString());
+            cell = row.createCell(1);
+            cell.setCellValue(s.getAvgExamScore());
+            cell = row.createCell(2);
+            cell.setCellValue(s.getSumProfileStudents());
+            cell = row.createCell(3);
+            cell.setCellValue(s.getSumProfileUniversities());
+            cell = row.createCell(4);
+            cell.setCellValue(s.getUniversityName());
+            i++;
         }
 
         FileOutputStream outputStream = new FileOutputStream(fos);

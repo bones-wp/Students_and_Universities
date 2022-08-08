@@ -16,7 +16,7 @@ public class University {
     private int yearOfFoundation;
 
     @SerializedName("Профиль")
-    private StudyProfile mainProfile;
+    StudyProfile mainProfile;
 
     public University(String id, String fullName, String shortName, int yearOfFoundation, StudyProfile mainProfile) {
         this.id = id;

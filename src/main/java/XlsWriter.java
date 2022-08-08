@@ -6,10 +6,10 @@ import java.io.IOException;
 import java.util.List;
 
 public class XlsWriter {
-    private XlsWriter() {}
+    private XlsWriter() {
+    }
 
-
-    public static void writeStatistics (List<Statistics> statistics, String fos) throws IOException {
+    public static void writeStatistics(List<Statistics> statistics, String fos) throws IOException {
         XSSFWorkbook newWorkbook = new XSSFWorkbook();
 
         XSSFFont font = newWorkbook.createFont();
@@ -42,22 +42,23 @@ public class XlsWriter {
         cell.setCellValue("Количество университетов по профилю");
         cell = row.createCell(4);
         cell.setCellStyle(style);
-        cell.setCellValue("Название университета");
+        cell.setCellValue("Название университетов");
 
-        for (Statistics s : statistics){
-            for (int i = 0; i < statistics.size(); i++) {
-                row = sheet.createRow(i+1);
-                cell = row.createCell(i);
-                cell.setCellValue(s.getStudyProfile().ordinal());
-                cell = row.createCell(i+1);
+        int i = 0;
+
+        for (Statistics s : statistics) {
+                row = sheet.createRow(1 + i);
+                cell = row.createCell(0);
+                cell.setCellValue(s.getStudyProfile().toString());
+                cell = row.createCell(1);
                 cell.setCellValue(s.getAvgExamScore());
-                cell = row.createCell(i+2);
+                cell = row.createCell(2);
                 cell.setCellValue(s.getSumProfileStudents());
-                cell = row.createCell(i+3);
+                cell = row.createCell(3);
                 cell.setCellValue(s.getSumProfileUniversities());
-                cell = row.createCell(i+4);
+                cell = row.createCell(4);
                 cell.setCellValue(s.getUniversityName());
-            }
+                i++;
         }
 
         FileOutputStream outputStream = new FileOutputStream(fos);

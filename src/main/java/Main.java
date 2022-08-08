@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import static modelclass.StudyProfile.MATHEMATICS;
 import static modelclass.StudyProfile.PHYSICS;
 
 public class Main {
@@ -22,7 +23,7 @@ public class Main {
 
         List<Student> listStudentsFromJson = JsonUtil.studentsFromJson(jSonStudents);
         System.out.println(listStudentsFromJson);
-        if (listStudentsFromJson.size() == Reader.students.size()){
+        if (listStudentsFromJson.size() == Reader.students.size()) {
             System.out.println("\n Сериализация коллекции студентов выполнена корректно \n");
         }
 
@@ -33,7 +34,7 @@ public class Main {
 
         List<University> listUniversityFromJson = JsonUtil.universityFromJson(jSonUniversity);
         System.out.println(listUniversityFromJson);
-        if (listUniversityFromJson.size() == Reader.universities.size()){
+        if (listUniversityFromJson.size() == Reader.universities.size()) {
             System.out.println("\n Сериализация коллекции университетов выполнена корректно \n");
         }
 
@@ -52,16 +53,13 @@ public class Main {
                     System.out.println("Десериализованный объект: " + JsonUtil.fromJsonUniversity(JsonUtil.toJSonUniversity(x)));
                 });
 
-        List<Statistics> statistics = new ArrayList<>();
+
         String fos = "src/main/resources/statistics.xlsx";
 
-        //statistics.add(new Statistics(PHYSICS, 4.0F, 33, 55, "Казанский придуманный Университет"));
+        List<Statistics> statistics = StatisticsUtil.getStatistic(Reader.students, Reader.universities);
 
         XlsWriter.writeStatistics(statistics, fos);
 
     }
-
-
-
 
 }

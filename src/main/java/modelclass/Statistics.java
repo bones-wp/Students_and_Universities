@@ -1,11 +1,11 @@
 package modelclass;
 
 public class Statistics {
-    StudyProfile studyProfile;
-    float avgExamScore;
-    int sumProfileStudents;
-    int sumProfileUniversities;
-    String universityName;
+    private StudyProfile studyProfile;
+    private float avgExamScore;
+    private int sumProfileStudents;
+    private int sumProfileUniversities;
+    private String universityName;
 
     public Statistics(StudyProfile studyProfile, float avgExamScore, int sumProfileStudents, int sumProfileUniversities, String universityName) {
         this.studyProfile = studyProfile;

@@ -46,7 +46,8 @@ public class StatisticsUtil {
                         avgExamScore = avgOptional.get();
                     }
                     BigDecimal avgDecimal = new BigDecimal(avgExamScore);
-                    float avgExamDecimal = avgDecimal.setScale(2, RoundingMode.FLOOR).floatValue();
+                    float avgExamDecimal = avgDecimal.setScale(2, RoundingMode.UP).floatValue();
+
                     statistics.add(new Statistics(x, avgExamDecimal, sumStudents, sumUniversities, universityNames));
                 });
         return statistics;

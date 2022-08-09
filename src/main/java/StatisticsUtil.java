@@ -27,7 +27,7 @@ public class StatisticsUtil {
                     String universityNames = "";
 
                     for (University university : universityList) {
-                        if (university.getMainProfile() == x && x != null) {
+                        if (university.getMainProfile() == x) {
 
                             sumUniversities++;
                             universityNames = universityNames + " " + university.getShortName() + "\n";

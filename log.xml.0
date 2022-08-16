@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-16T16:16:32.825377100Z</date>
+  <millis>1660666592825</millis>
+  <nanos>377100</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-16T16:16:33.581529900Z</date>
+  <millis>1660666593581</millis>
+  <nanos>529900</nanos>
+  <sequence>1</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа завершена</message>
+</record>
+</log>

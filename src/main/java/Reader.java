@@ -24,6 +24,8 @@ public class Reader {
     static List<University> universities = new ArrayList<>();
 
     public static void readStudents() throws IOException {
+        readerLog.info("Создание списка студентов начато");
+
         FileInputStream fis;
         try {
             fis = new FileInputStream("src/main/resources/universityInfo.xlsx");
@@ -36,6 +38,7 @@ public class Reader {
                 students.add(new Student(row.getCell(1).getStringCellValue(), row.getCell(0).getStringCellValue(),
                         (int) row.getCell(2).getNumericCellValue(), (float) row.getCell(3).getNumericCellValue()));
             }
+            readerLog.info("Создание списка студентов завершено");
 
         } catch (FileNotFoundException e){
             readerLog.severe("Ошибка чтения universityInfo.xlsx!");
@@ -43,6 +46,8 @@ public class Reader {
     }
 
     public static void readUniversity() throws IOException {
+        readerLog.info("Создание списка университетов начато");
+
         FileInputStream fis;
         try {
             fis = new FileInputStream("src/main/resources/universityInfo.xlsx");
@@ -59,6 +64,7 @@ public class Reader {
                 universities.add(new University(row.getCell(0).getStringCellValue(), row.getCell(1).getStringCellValue(),
                         row.getCell(2).getStringCellValue(), (int) row.getCell(3).getNumericCellValue(), profile));
             }
+            readerLog.info("Создание списка университетов завершено");
 
         } catch (FileNotFoundException e){
             readerLog.severe("Ошибка чтения universityInfo.xlsx!");

@@ -9,13 +9,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
+import java.util.logging.Logger;
 
 
 public class StatisticsUtil {
-    private StatisticsUtil() {
-    }
+    private StatisticsUtil() {}
+    public static final Logger statisticsLog = Logger.getLogger(StatisticsUtil.class.getName());
 
     public static List<Statistics> getStatistic(List<Student> studentList, List<University> universityList) {
+        statisticsLog.info("Сбор статистики запущен");
         List<Statistics> statistics = new ArrayList<>();
 
         Arrays.stream(StudyProfile.values())
@@ -50,6 +52,7 @@ public class StatisticsUtil {
 
                     statistics.add(new Statistics(x, avgExamDecimal, sumStudents, sumUniversities, universityNames));
                 });
+        statisticsLog.info("Сбор статистики завершён");
         return statistics;
     }
 }

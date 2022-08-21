@@ -1,6 +1,10 @@
+import JAXB.JavaToXml;
+import JAXB.Info;
 import comparators.EnumStudentsCompare;
 import comparators.EnumUniversityCompare;
 import comparators.NeedableComparator;
+import jakarta.xml.bind.JAXBContext;
+import jakarta.xml.bind.JAXBException;
 import modelclass.Statistics;
 import modelclass.Student;
 import modelclass.University;
@@ -10,12 +14,14 @@ import java.util.List;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
 
+import static JAXB.Info.statistics;
+
 
 public class Main {
 
     public static final Logger mainLog = Logger.getLogger(Main.class.getName());
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, JAXBException {
 
         LogManager.getLogManager().readConfiguration(Main.class.getResourceAsStream("logging.properties"));
         mainLog.info("Программа запущена");
@@ -43,7 +49,7 @@ public class Main {
         }*/
 
 
-        Reader.students.stream()
+        Info.students.stream()
                 .sorted(NeedableComparator.getStudentsCompare(EnumStudentsCompare.AVGeXAMsCORE))
                 .forEach(x -> {
                     /*System.out.println("\n Сериализованный объект: " + */
@@ -52,7 +58,7 @@ public class Main {
                     JsonUtil.fromJsonStudent(JsonUtil.toJSonStudent(x));
                 });
 
-        Reader.universities.stream()
+        Info.universities.stream()
                 .sorted(NeedableComparator.getUniversityCompare(EnumUniversityCompare.ID))
                 .forEach(x -> {
                     /*System.out.println("\n Сериализованный объект: " + */
@@ -64,9 +70,12 @@ public class Main {
 
         String fos = "src/main/resources/statistics.xlsx";
 
-        List<Statistics> statistics = StatisticsUtil.getStatistic(Reader.students, Reader.universities);
+        statistics = StatisticsUtil.getStatistic(Info.students, Info.universities);
 
         XlsWriter.writeStatistics(statistics, fos);
+
+        JAXBContext context = JAXBContext.newInstance(Info.class);
+        JavaToXml.javaToXml(context);
 
         mainLog.info("Программа завершена");
     }

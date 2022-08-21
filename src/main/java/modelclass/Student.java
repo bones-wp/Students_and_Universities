@@ -1,7 +1,9 @@
 package modelclass;
 
 import com.google.gson.annotations.SerializedName;
+import jakarta.xml.bind.annotation.*;
 
+@XmlType(propOrder = {"fullName", "universityId", "avgExamScore"})
 public class Student {
     @SerializedName("Полное имя")
     private String fullName;
@@ -22,6 +24,9 @@ public class Student {
         this.avgExamScore = avgExamScore;
     }
 
+    public Student() {
+    }
+
     @Override
     public String toString() {
         return "\n" + "Студент: " + "\n" +
@@ -31,6 +36,7 @@ public class Student {
                 ", средняя экзаменационная оценка:" + avgExamScore;
     }
 
+    @XmlElement(name = "StudentName")
     public String getFullName() {
         return fullName;
     }
@@ -40,6 +46,7 @@ public class Student {
         return this;
     }
 
+    @XmlElement(name = "universityId")
     public String getUniversityId() {
         return universityId;
     }
@@ -49,6 +56,7 @@ public class Student {
         return this;
     }
 
+    @XmlTransient
     public int getCurrentCourseNumber() {
         return currentCourseNumber;
     }
@@ -58,6 +66,7 @@ public class Student {
         return this;
     }
 
+    @XmlElement(name = "avgScore")
     public float getAvgExamScore() {
         return avgExamScore;
     }

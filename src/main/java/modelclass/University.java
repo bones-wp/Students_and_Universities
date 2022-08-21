@@ -1,6 +1,7 @@
 package modelclass;
 
 import com.google.gson.annotations.SerializedName;
+import jakarta.xml.bind.annotation.*;
 
 public class University {
     @SerializedName("Идентификатор Университета")
@@ -36,6 +37,7 @@ public class University {
                 ", профиль: " + mainProfile;
     }
 
+    @XmlElement(name = "universityId")
     public String getId() {
         return id;
     }
@@ -45,6 +47,7 @@ public class University {
         return this;
     }
 
+    @XmlElement(name = "universityName")
     public String getFullName() {
         return fullName;
     }
@@ -54,6 +57,7 @@ public class University {
         return this;
     }
 
+    @XmlTransient
     public String getShortName() {
         return shortName;
     }
@@ -63,6 +67,7 @@ public class University {
         return this;
     }
 
+    @XmlTransient
     public int getYearOfFoundation() {
         return yearOfFoundation;
     }
@@ -72,6 +77,7 @@ public class University {
         return this;
     }
 
+    @XmlElement(name = "universityProfile")
     public StudyProfile getMainProfile() {
         return mainProfile;
     }

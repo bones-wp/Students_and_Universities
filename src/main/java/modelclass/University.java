@@ -3,6 +3,7 @@ package modelclass;
 import com.google.gson.annotations.SerializedName;
 import jakarta.xml.bind.annotation.*;
 
+@XmlType(propOrder = {"id", "fullName", "mainProfile"})
 public class University {
     @SerializedName("Идентификатор Университета")
     private String id;

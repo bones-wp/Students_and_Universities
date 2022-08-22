@@ -59,38 +59,38 @@
     </StudentsInfo>
     <universitiesInfo>
         <universityEntry>
-            <universityName>Московский Выдуманный Университет</universityName>
             <universityId>0001-high</universityId>
+            <universityName>Московский Выдуманный Университет</universityName>
             <universityProfile>PHYSICS</universityProfile>
         </universityEntry>
         <universityEntry>
-            <universityName>Московский Придуманный Институт</universityName>
             <universityId>0002-high</universityId>
+            <universityName>Московский Придуманный Институт</universityName>
             <universityProfile>PHYSICS</universityProfile>
         </universityEntry>
         <universityEntry>
-            <universityName>Московский Государственный Медицинский Университет</universityName>
             <universityId>0003-high</universityId>
+            <universityName>Московский Государственный Медицинский Университет</universityName>
             <universityProfile>MEDICINE</universityProfile>
         </universityEntry>
         <universityEntry>
-            <universityName>Тамбовский Университет Медицины</universityName>
             <universityId>0004-high</universityId>
+            <universityName>Тамбовский Университет Медицины</universityName>
             <universityProfile>MEDICINE</universityProfile>
         </universityEntry>
         <universityEntry>
-            <universityName>Самарский Медицинский Институт</universityName>
             <universityId>0005-high</universityId>
+            <universityName>Самарский Медицинский Институт</universityName>
             <universityProfile>MEDICINE</universityProfile>
         </universityEntry>
         <universityEntry>
-            <universityName>Воронежский Литературно-Переводческий Университет</universityName>
             <universityId>0006-high</universityId>
+            <universityName>Воронежский Литературно-Переводческий Университет</universityName>
             <universityProfile>LINGUISTICS</universityProfile>
         </universityEntry>
         <universityEntry>
-            <universityName>Казанский Университет Вычислений</universityName>
             <universityId>0007-high</universityId>
+            <universityName>Казанский Университет Вычислений</universityName>
             <universityProfile>MATHEMATICS</universityProfile>
         </universityEntry>
     </universitiesInfo>

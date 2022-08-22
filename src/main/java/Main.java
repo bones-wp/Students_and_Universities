@@ -5,7 +5,8 @@ import comparators.EnumUniversityCompare;
 import comparators.NeedableComparator;
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.JAXBException;
-import modelclass.Statistics;
+import json.JavaToJson;
+import json.JsonUtil;
 import modelclass.Student;
 import modelclass.University;
 
@@ -75,7 +76,9 @@ public class Main {
         XlsWriter.writeStatistics(statistics, fos);
 
         JAXBContext context = JAXBContext.newInstance(Info.class);
-        JavaToXml.javaToXml(context);
+
+        JavaToJson.javaToJson(context);
+        //JavaToXml.javaToXml(context);
 
         mainLog.info("Программа завершена");
     }

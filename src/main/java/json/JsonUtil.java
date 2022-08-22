@@ -1,3 +1,5 @@
+package json;
+
 import JAXB.Info;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

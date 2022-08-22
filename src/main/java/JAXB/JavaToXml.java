@@ -20,7 +20,7 @@ public class JavaToXml {
             Files.createDirectory(Path.of("src/main/resources/XmlFiles"));
         }
 
-        File file = new File("src/main/resources/XmlFiles/exercise.xml" + LocalDate.now());
+        File file = new File("src/main/resources/XmlFiles/exercise.xml" + "_" + LocalDate.now());
 
         Info info = new Info();
 

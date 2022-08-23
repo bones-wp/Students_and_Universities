@@ -10930,3 +10930,4619 @@
   <message>Программа завершена</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T14:08:51.213810500Z</date>
+  <millis>1661177331213</millis>
+  <nanos>810500</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T14:08:51.242810500Z</date>
+  <millis>1661177331242</millis>
+  <nanos>810500</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T14:08:51.835721300Z</date>
+  <millis>1661177331835</millis>
+  <nanos>721300</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T14:08:51.862721500Z</date>
+  <millis>1661177331862</millis>
+  <nanos>721500</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T14:08:51.887720600Z</date>
+  <millis>1661177331887</millis>
+  <nanos>720600</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T14:08:51.894721100Z</date>
+  <millis>1661177331894</millis>
+  <nanos>721100</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T14:08:51.896720500Z</date>
+  <millis>1661177331896</millis>
+  <nanos>720500</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T14:08:51.903721100Z</date>
+  <millis>1661177331903</millis>
+  <nanos>721100</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T14:08:51.905721300Z</date>
+  <millis>1661177331905</millis>
+  <nanos>721300</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:20:35.133159400Z</date>
+  <millis>1661181635133</millis>
+  <nanos>159400</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:20:35.163160400Z</date>
+  <millis>1661181635163</millis>
+  <nanos>160400</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:20:35.738469400Z</date>
+  <millis>1661181635738</millis>
+  <nanos>469400</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:20:35.763470600Z</date>
+  <millis>1661181635763</millis>
+  <nanos>470600</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:20:35.790472200Z</date>
+  <millis>1661181635790</millis>
+  <nanos>472200</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:20:35.797469800Z</date>
+  <millis>1661181635797</millis>
+  <nanos>469800</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:20:35.799470200Z</date>
+  <millis>1661181635799</millis>
+  <nanos>470200</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:20:35.806470700Z</date>
+  <millis>1661181635806</millis>
+  <nanos>470700</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:20:35.808469900Z</date>
+  <millis>1661181635808</millis>
+  <nanos>469900</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:20:47.672967800Z</date>
+  <millis>1661181647672</millis>
+  <nanos>967800</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:20:47.703969Z</date>
+  <millis>1661181647703</millis>
+  <nanos>969000</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:20:48.279967Z</date>
+  <millis>1661181648279</millis>
+  <nanos>967000</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:20:48.309968Z</date>
+  <millis>1661181648309</millis>
+  <nanos>968000</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:20:48.334966800Z</date>
+  <millis>1661181648334</millis>
+  <nanos>966800</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:20:48.342967800Z</date>
+  <millis>1661181648342</millis>
+  <nanos>967800</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:20:48.344968600Z</date>
+  <millis>1661181648344</millis>
+  <nanos>968600</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:20:48.350967300Z</date>
+  <millis>1661181648350</millis>
+  <nanos>967300</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:20:48.352967700Z</date>
+  <millis>1661181648352</millis>
+  <nanos>967700</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:22:09.139687400Z</date>
+  <millis>1661181729139</millis>
+  <nanos>687400</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:22:09.170688100Z</date>
+  <millis>1661181729170</millis>
+  <nanos>688100</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:22:09.743688Z</date>
+  <millis>1661181729743</millis>
+  <nanos>688000</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:22:09.773688200Z</date>
+  <millis>1661181729773</millis>
+  <nanos>688200</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:22:09.797687900Z</date>
+  <millis>1661181729797</millis>
+  <nanos>687900</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:22:09.803688800Z</date>
+  <millis>1661181729803</millis>
+  <nanos>688800</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:22:09.805687400Z</date>
+  <millis>1661181729805</millis>
+  <nanos>687400</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:22:09.810687100Z</date>
+  <millis>1661181729810</millis>
+  <nanos>687100</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:22:09.812687100Z</date>
+  <millis>1661181729812</millis>
+  <nanos>687100</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:22:24.676354500Z</date>
+  <millis>1661181744676</millis>
+  <nanos>354500</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:22:24.706353200Z</date>
+  <millis>1661181744706</millis>
+  <nanos>353200</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:22:25.290591800Z</date>
+  <millis>1661181745290</millis>
+  <nanos>591800</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:22:25.320591500Z</date>
+  <millis>1661181745320</millis>
+  <nanos>591500</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:22:25.347688400Z</date>
+  <millis>1661181745347</millis>
+  <nanos>688400</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:22:25.359683400Z</date>
+  <millis>1661181745359</millis>
+  <nanos>683400</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:22:25.362683300Z</date>
+  <millis>1661181745362</millis>
+  <nanos>683300</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:22:25.369685600Z</date>
+  <millis>1661181745369</millis>
+  <nanos>685600</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:22:25.371683900Z</date>
+  <millis>1661181745371</millis>
+  <nanos>683900</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:23:09.509234800Z</date>
+  <millis>1661181789509</millis>
+  <nanos>234800</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:09.537234100Z</date>
+  <millis>1661181789537</millis>
+  <nanos>234100</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:10.110235200Z</date>
+  <millis>1661181790110</millis>
+  <nanos>235200</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:10.137236100Z</date>
+  <millis>1661181790137</millis>
+  <nanos>236100</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:10.162235Z</date>
+  <millis>1661181790162</millis>
+  <nanos>235000</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:10.168234800Z</date>
+  <millis>1661181790168</millis>
+  <nanos>234800</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:10.171234100Z</date>
+  <millis>1661181790171</millis>
+  <nanos>234100</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:10.180235200Z</date>
+  <millis>1661181790180</millis>
+  <nanos>235200</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:10.182236100Z</date>
+  <millis>1661181790182</millis>
+  <nanos>236100</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:23:33.057358900Z</date>
+  <millis>1661181813057</millis>
+  <nanos>358900</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:33.088359400Z</date>
+  <millis>1661181813088</millis>
+  <nanos>359400</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:33.664361600Z</date>
+  <millis>1661181813664</millis>
+  <nanos>361600</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:33.692361800Z</date>
+  <millis>1661181813692</millis>
+  <nanos>361800</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:33.715359900Z</date>
+  <millis>1661181813715</millis>
+  <nanos>359900</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:33.723358300Z</date>
+  <millis>1661181813723</millis>
+  <nanos>358300</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:33.726358700Z</date>
+  <millis>1661181813726</millis>
+  <nanos>358700</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:33.731359500Z</date>
+  <millis>1661181813731</millis>
+  <nanos>359500</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:33.733358700Z</date>
+  <millis>1661181813733</millis>
+  <nanos>358700</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:23:57.764678800Z</date>
+  <millis>1661181837764</millis>
+  <nanos>678800</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:57.793679600Z</date>
+  <millis>1661181837793</millis>
+  <nanos>679600</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:58.372679700Z</date>
+  <millis>1661181838372</millis>
+  <nanos>679700</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:58.403679600Z</date>
+  <millis>1661181838403</millis>
+  <nanos>679600</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:58.429680Z</date>
+  <millis>1661181838429</millis>
+  <nanos>680000</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:58.437680Z</date>
+  <millis>1661181838437</millis>
+  <nanos>680000</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:58.440680400Z</date>
+  <millis>1661181838440</millis>
+  <nanos>680400</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:58.449679200Z</date>
+  <millis>1661181838449</millis>
+  <nanos>679200</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:23:58.452678700Z</date>
+  <millis>1661181838452</millis>
+  <nanos>678700</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:24:16.729087700Z</date>
+  <millis>1661181856729</millis>
+  <nanos>87700</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:24:16.761936500Z</date>
+  <millis>1661181856761</millis>
+  <nanos>936500</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:24:17.349934800Z</date>
+  <millis>1661181857349</millis>
+  <nanos>934800</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:24:17.374935900Z</date>
+  <millis>1661181857374</millis>
+  <nanos>935900</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:24:17.404937400Z</date>
+  <millis>1661181857404</millis>
+  <nanos>937400</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:24:17.411937600Z</date>
+  <millis>1661181857411</millis>
+  <nanos>937600</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:24:17.414934800Z</date>
+  <millis>1661181857414</millis>
+  <nanos>934800</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:24:17.420935500Z</date>
+  <millis>1661181857420</millis>
+  <nanos>935500</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:24:17.422934600Z</date>
+  <millis>1661181857422</millis>
+  <nanos>934600</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:24:54.114543200Z</date>
+  <millis>1661181894114</millis>
+  <nanos>543200</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:24:54.150542500Z</date>
+  <millis>1661181894150</millis>
+  <nanos>542500</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:24:54.761543300Z</date>
+  <millis>1661181894761</millis>
+  <nanos>543300</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:24:54.789542100Z</date>
+  <millis>1661181894789</millis>
+  <nanos>542100</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:24:54.811541800Z</date>
+  <millis>1661181894811</millis>
+  <nanos>541800</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:24:54.819542900Z</date>
+  <millis>1661181894819</millis>
+  <nanos>542900</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:24:54.821542700Z</date>
+  <millis>1661181894821</millis>
+  <nanos>542700</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:24:54.827542600Z</date>
+  <millis>1661181894827</millis>
+  <nanos>542600</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:24:54.829543200Z</date>
+  <millis>1661181894829</millis>
+  <nanos>543200</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:25:29.561487Z</date>
+  <millis>1661181929561</millis>
+  <nanos>487000</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:25:29.590485300Z</date>
+  <millis>1661181929590</millis>
+  <nanos>485300</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:25:30.148484200Z</date>
+  <millis>1661181930148</millis>
+  <nanos>484200</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:25:30.173484100Z</date>
+  <millis>1661181930173</millis>
+  <nanos>484100</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:25:30.197484700Z</date>
+  <millis>1661181930197</millis>
+  <nanos>484700</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:25:30.204484800Z</date>
+  <millis>1661181930204</millis>
+  <nanos>484800</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:25:30.206483100Z</date>
+  <millis>1661181930206</millis>
+  <nanos>483100</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:25:30.212485400Z</date>
+  <millis>1661181930212</millis>
+  <nanos>485400</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:25:30.213483700Z</date>
+  <millis>1661181930213</millis>
+  <nanos>483700</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:25:45.753261700Z</date>
+  <millis>1661181945753</millis>
+  <nanos>261700</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:25:45.785260Z</date>
+  <millis>1661181945785</millis>
+  <nanos>260000</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:25:46.351260400Z</date>
+  <millis>1661181946351</millis>
+  <nanos>260400</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:25:46.380262100Z</date>
+  <millis>1661181946380</millis>
+  <nanos>262100</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:25:46.407260800Z</date>
+  <millis>1661181946407</millis>
+  <nanos>260800</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:25:46.416261300Z</date>
+  <millis>1661181946416</millis>
+  <nanos>261300</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:25:46.419261400Z</date>
+  <millis>1661181946419</millis>
+  <nanos>261400</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:25:46.427261300Z</date>
+  <millis>1661181946427</millis>
+  <nanos>261300</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:25:46.429261900Z</date>
+  <millis>1661181946429</millis>
+  <nanos>261900</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+<record>
+  <date>2022-08-22T15:25:46.539260600Z</date>
+  <millis>1661181946539</millis>
+  <nanos>260600</nanos>
+  <sequence>9</sequence>
+  <logger>jakarta.xml.bind</logger>
+  <level>WARNING</level>
+  <class>jakarta.xml.bind.ContextFinder</class>
+  <method>getDeprecatedSystemProperty</method>
+  <thread>1</thread>
+  <message>Using non-standard property: jakarta.xml.bind.context.factory. Property jakarta.xml.bind.JAXBContextFactory should be used instead.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:29:42.414801Z</date>
+  <millis>1661182182414</millis>
+  <nanos>801000</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:29:42.446801200Z</date>
+  <millis>1661182182446</millis>
+  <nanos>801200</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:29:43.006801800Z</date>
+  <millis>1661182183006</millis>
+  <nanos>801800</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:29:43.032801300Z</date>
+  <millis>1661182183032</millis>
+  <nanos>801300</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:29:43.053801800Z</date>
+  <millis>1661182183053</millis>
+  <nanos>801800</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:29:43.067802200Z</date>
+  <millis>1661182183067</millis>
+  <nanos>802200</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:29:43.071802Z</date>
+  <millis>1661182183071</millis>
+  <nanos>802000</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:29:43.078801800Z</date>
+  <millis>1661182183078</millis>
+  <nanos>801800</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:29:43.081802500Z</date>
+  <millis>1661182183081</millis>
+  <nanos>802500</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:30:42.752754400Z</date>
+  <millis>1661182242752</millis>
+  <nanos>754400</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:30:42.785754400Z</date>
+  <millis>1661182242785</millis>
+  <nanos>754400</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:30:43.374756500Z</date>
+  <millis>1661182243374</millis>
+  <nanos>756500</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:30:43.402755500Z</date>
+  <millis>1661182243402</millis>
+  <nanos>755500</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:30:43.431753700Z</date>
+  <millis>1661182243431</millis>
+  <nanos>753700</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:30:43.443754700Z</date>
+  <millis>1661182243443</millis>
+  <nanos>754700</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:30:43.446754800Z</date>
+  <millis>1661182243446</millis>
+  <nanos>754800</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:30:43.452753700Z</date>
+  <millis>1661182243452</millis>
+  <nanos>753700</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:30:43.455754200Z</date>
+  <millis>1661182243455</millis>
+  <nanos>754200</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:31:38.946525700Z</date>
+  <millis>1661182298946</millis>
+  <nanos>525700</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:31:38.977524900Z</date>
+  <millis>1661182298977</millis>
+  <nanos>524900</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:31:39.566525200Z</date>
+  <millis>1661182299566</millis>
+  <nanos>525200</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:31:39.596527700Z</date>
+  <millis>1661182299596</millis>
+  <nanos>527700</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:31:39.619526100Z</date>
+  <millis>1661182299619</millis>
+  <nanos>526100</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:31:39.626525300Z</date>
+  <millis>1661182299626</millis>
+  <nanos>525300</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:31:39.629524900Z</date>
+  <millis>1661182299629</millis>
+  <nanos>524900</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:31:39.635525300Z</date>
+  <millis>1661182299635</millis>
+  <nanos>525300</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:31:39.637525200Z</date>
+  <millis>1661182299637</millis>
+  <nanos>525200</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:31:57.455563500Z</date>
+  <millis>1661182317455</millis>
+  <nanos>563500</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:31:57.487563800Z</date>
+  <millis>1661182317487</millis>
+  <nanos>563800</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:31:58.076561700Z</date>
+  <millis>1661182318076</millis>
+  <nanos>561700</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:31:58.111565500Z</date>
+  <millis>1661182318111</millis>
+  <nanos>565500</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:31:58.133564200Z</date>
+  <millis>1661182318133</millis>
+  <nanos>564200</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:31:58.140564500Z</date>
+  <millis>1661182318140</millis>
+  <nanos>564500</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:31:58.143562400Z</date>
+  <millis>1661182318143</millis>
+  <nanos>562400</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:31:58.148564600Z</date>
+  <millis>1661182318148</millis>
+  <nanos>564600</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:31:58.151563600Z</date>
+  <millis>1661182318151</millis>
+  <nanos>563600</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:32:08.557392500Z</date>
+  <millis>1661182328557</millis>
+  <nanos>392500</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:32:08.589393500Z</date>
+  <millis>1661182328589</millis>
+  <nanos>393500</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:32:09.168393Z</date>
+  <millis>1661182329168</millis>
+  <nanos>393000</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:32:09.196394500Z</date>
+  <millis>1661182329196</millis>
+  <nanos>394500</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:32:09.218391700Z</date>
+  <millis>1661182329218</millis>
+  <nanos>391700</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:32:09.227392900Z</date>
+  <millis>1661182329227</millis>
+  <nanos>392900</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:32:09.230391600Z</date>
+  <millis>1661182329230</millis>
+  <nanos>391600</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:32:09.235393300Z</date>
+  <millis>1661182329235</millis>
+  <nanos>393300</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:32:09.238392800Z</date>
+  <millis>1661182329238</millis>
+  <nanos>392800</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:32:18.537044700Z</date>
+  <millis>1661182338537</millis>
+  <nanos>44700</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:32:18.570045200Z</date>
+  <millis>1661182338570</millis>
+  <nanos>45200</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:32:19.152043Z</date>
+  <millis>1661182339152</millis>
+  <nanos>43000</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:32:19.178048Z</date>
+  <millis>1661182339178</millis>
+  <nanos>48000</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:32:19.203047100Z</date>
+  <millis>1661182339203</millis>
+  <nanos>47100</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:32:19.213044800Z</date>
+  <millis>1661182339213</millis>
+  <nanos>44800</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:32:19.216045500Z</date>
+  <millis>1661182339216</millis>
+  <nanos>45500</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:32:19.222045500Z</date>
+  <millis>1661182339222</millis>
+  <nanos>45500</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:32:19.225046600Z</date>
+  <millis>1661182339225</millis>
+  <nanos>46600</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:33:28.814383500Z</date>
+  <millis>1661182408814</millis>
+  <nanos>383500</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:33:28.846383700Z</date>
+  <millis>1661182408846</millis>
+  <nanos>383700</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:33:29.428384300Z</date>
+  <millis>1661182409428</millis>
+  <nanos>384300</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:33:29.453384800Z</date>
+  <millis>1661182409453</millis>
+  <nanos>384800</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:33:29.473384100Z</date>
+  <millis>1661182409473</millis>
+  <nanos>384100</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:33:29.482384300Z</date>
+  <millis>1661182409482</millis>
+  <nanos>384300</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:33:29.484384400Z</date>
+  <millis>1661182409484</millis>
+  <nanos>384400</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:33:29.490383700Z</date>
+  <millis>1661182409490</millis>
+  <nanos>383700</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:33:29.492383700Z</date>
+  <millis>1661182409492</millis>
+  <nanos>383700</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:34:04.728970200Z</date>
+  <millis>1661182444728</millis>
+  <nanos>970200</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:34:04.760970100Z</date>
+  <millis>1661182444760</millis>
+  <nanos>970100</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:34:05.387932100Z</date>
+  <millis>1661182445387</millis>
+  <nanos>932100</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:34:05.419932500Z</date>
+  <millis>1661182445419</millis>
+  <nanos>932500</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:34:05.447933500Z</date>
+  <millis>1661182445447</millis>
+  <nanos>933500</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:34:05.455931300Z</date>
+  <millis>1661182445455</millis>
+  <nanos>931300</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:34:05.458930800Z</date>
+  <millis>1661182445458</millis>
+  <nanos>930800</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:34:05.464931300Z</date>
+  <millis>1661182445464</millis>
+  <nanos>931300</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:34:05.466932100Z</date>
+  <millis>1661182445466</millis>
+  <nanos>932100</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:34:20.587873100Z</date>
+  <millis>1661182460587</millis>
+  <nanos>873100</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:34:20.618872700Z</date>
+  <millis>1661182460618</millis>
+  <nanos>872700</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:34:21.223873700Z</date>
+  <millis>1661182461223</millis>
+  <nanos>873700</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:34:21.259873700Z</date>
+  <millis>1661182461259</millis>
+  <nanos>873700</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:34:21.280872200Z</date>
+  <millis>1661182461280</millis>
+  <nanos>872200</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:34:21.290872600Z</date>
+  <millis>1661182461290</millis>
+  <nanos>872600</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:34:21.293871400Z</date>
+  <millis>1661182461293</millis>
+  <nanos>871400</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:34:21.299873500Z</date>
+  <millis>1661182461299</millis>
+  <nanos>873500</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:34:21.301872100Z</date>
+  <millis>1661182461301</millis>
+  <nanos>872100</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:44:18.816811700Z</date>
+  <millis>1661183058816</millis>
+  <nanos>811700</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:44:18.847811600Z</date>
+  <millis>1661183058847</millis>
+  <nanos>811600</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:44:19.406811900Z</date>
+  <millis>1661183059406</millis>
+  <nanos>811900</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:44:19.435812900Z</date>
+  <millis>1661183059435</millis>
+  <nanos>812900</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:44:19.457812Z</date>
+  <millis>1661183059457</millis>
+  <nanos>812000</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:44:19.465811900Z</date>
+  <millis>1661183059465</millis>
+  <nanos>811900</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:44:19.468811300Z</date>
+  <millis>1661183059468</millis>
+  <nanos>811300</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:44:19.474810900Z</date>
+  <millis>1661183059474</millis>
+  <nanos>810900</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:44:19.476811500Z</date>
+  <millis>1661183059476</millis>
+  <nanos>811500</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:44:32.415099600Z</date>
+  <millis>1661183072415</millis>
+  <nanos>99600</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:44:32.443099400Z</date>
+  <millis>1661183072443</millis>
+  <nanos>99400</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:44:33.003098500Z</date>
+  <millis>1661183073003</millis>
+  <nanos>98500</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:44:33.028100200Z</date>
+  <millis>1661183073028</millis>
+  <nanos>100200</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:44:33.049099300Z</date>
+  <millis>1661183073049</millis>
+  <nanos>99300</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:44:33.054099200Z</date>
+  <millis>1661183073054</millis>
+  <nanos>99200</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:44:33.057100Z</date>
+  <millis>1661183073057</millis>
+  <nanos>100000</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:44:33.062100700Z</date>
+  <millis>1661183073062</millis>
+  <nanos>100700</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:44:33.064100200Z</date>
+  <millis>1661183073064</millis>
+  <nanos>100200</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:51:41.535749500Z</date>
+  <millis>1661183501535</millis>
+  <nanos>749500</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:51:41.566748400Z</date>
+  <millis>1661183501566</millis>
+  <nanos>748400</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:51:42.131748300Z</date>
+  <millis>1661183502131</millis>
+  <nanos>748300</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:51:42.153747Z</date>
+  <millis>1661183502153</millis>
+  <nanos>747000</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:51:42.179747800Z</date>
+  <millis>1661183502179</millis>
+  <nanos>747800</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:51:42.186749200Z</date>
+  <millis>1661183502186</millis>
+  <nanos>749200</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:51:42.189747400Z</date>
+  <millis>1661183502189</millis>
+  <nanos>747400</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:51:42.194747400Z</date>
+  <millis>1661183502194</millis>
+  <nanos>747400</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:51:42.196747200Z</date>
+  <millis>1661183502196</millis>
+  <nanos>747200</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T15:53:01.557648100Z</date>
+  <millis>1661183581557</millis>
+  <nanos>648100</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-22T15:53:01.587648900Z</date>
+  <millis>1661183581587</millis>
+  <nanos>648900</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:53:02.160330500Z</date>
+  <millis>1661183582160</millis>
+  <nanos>330500</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:53:02.189333300Z</date>
+  <millis>1661183582189</millis>
+  <nanos>333300</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-22T15:53:02.216332300Z</date>
+  <millis>1661183582216</millis>
+  <nanos>332300</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-22T15:53:02.223331Z</date>
+  <millis>1661183582223</millis>
+  <nanos>331000</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-22T15:53:02.225330800Z</date>
+  <millis>1661183582225</millis>
+  <nanos>330800</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-22T15:53:02.231331Z</date>
+  <millis>1661183582231</millis>
+  <nanos>331000</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-22T15:53:02.234330200Z</date>
+  <millis>1661183582234</millis>
+  <nanos>330200</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-23T07:01:06.118495Z</date>
+  <millis>1661238066118</millis>
+  <nanos>495000</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-23T07:01:06.148501400Z</date>
+  <millis>1661238066148</millis>
+  <nanos>501400</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:01:06.732415200Z</date>
+  <millis>1661238066732</millis>
+  <nanos>415200</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:01:06.760421600Z</date>
+  <millis>1661238066760</millis>
+  <nanos>421600</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:01:06.783427500Z</date>
+  <millis>1661238066783</millis>
+  <nanos>427500</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:01:06.793429300Z</date>
+  <millis>1661238066793</millis>
+  <nanos>429300</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-23T07:01:06.797431800Z</date>
+  <millis>1661238066797</millis>
+  <nanos>431800</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-23T07:01:06.803431700Z</date>
+  <millis>1661238066803</millis>
+  <nanos>431700</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-23T07:01:06.805432600Z</date>
+  <millis>1661238066805</millis>
+  <nanos>432600</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-23T07:03:09.011347400Z</date>
+  <millis>1661238189011</millis>
+  <nanos>347400</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:09.041353200Z</date>
+  <millis>1661238189041</millis>
+  <nanos>353200</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:09.626486800Z</date>
+  <millis>1661238189626</millis>
+  <nanos>486800</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:09.652494200Z</date>
+  <millis>1661238189652</millis>
+  <nanos>494200</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:09.677497700Z</date>
+  <millis>1661238189677</millis>
+  <nanos>497700</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:09.685499800Z</date>
+  <millis>1661238189685</millis>
+  <nanos>499800</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:09.688500100Z</date>
+  <millis>1661238189688</millis>
+  <nanos>500100</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:09.693501700Z</date>
+  <millis>1661238189693</millis>
+  <nanos>501700</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:09.695504100Z</date>
+  <millis>1661238189695</millis>
+  <nanos>504100</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-23T07:03:27.479468700Z</date>
+  <millis>1661238207479</millis>
+  <nanos>468700</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:27.510475300Z</date>
+  <millis>1661238207510</millis>
+  <nanos>475300</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:28.069602100Z</date>
+  <millis>1661238208069</millis>
+  <nanos>602100</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:28.097609Z</date>
+  <millis>1661238208097</millis>
+  <nanos>609000</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:28.122614400Z</date>
+  <millis>1661238208122</millis>
+  <nanos>614400</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:28.129617100Z</date>
+  <millis>1661238208129</millis>
+  <nanos>617100</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:28.131616500Z</date>
+  <millis>1661238208131</millis>
+  <nanos>616500</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:28.137617500Z</date>
+  <millis>1661238208137</millis>
+  <nanos>617500</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:28.138618600Z</date>
+  <millis>1661238208138</millis>
+  <nanos>618600</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-23T07:03:35.398070900Z</date>
+  <millis>1661238215398</millis>
+  <nanos>70900</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:35.436077200Z</date>
+  <millis>1661238215436</millis>
+  <nanos>77200</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:36.009549800Z</date>
+  <millis>1661238216009</millis>
+  <nanos>549800</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:36.032558500Z</date>
+  <millis>1661238216032</millis>
+  <nanos>558500</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:36.056563Z</date>
+  <millis>1661238216056</millis>
+  <nanos>563000</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:36.063562200Z</date>
+  <millis>1661238216063</millis>
+  <nanos>562200</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:36.065562400Z</date>
+  <millis>1661238216065</millis>
+  <nanos>562400</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:36.071566500Z</date>
+  <millis>1661238216071</millis>
+  <nanos>566500</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:36.072566100Z</date>
+  <millis>1661238216072</millis>
+  <nanos>566100</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-23T07:03:43.441551500Z</date>
+  <millis>1661238223441</millis>
+  <nanos>551500</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:43.473558800Z</date>
+  <millis>1661238223473</millis>
+  <nanos>558800</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:44.037686200Z</date>
+  <millis>1661238224037</millis>
+  <nanos>686200</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:44.067693200Z</date>
+  <millis>1661238224067</millis>
+  <nanos>693200</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:44.088698200Z</date>
+  <millis>1661238224088</millis>
+  <nanos>698200</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:44.094700800Z</date>
+  <millis>1661238224094</millis>
+  <nanos>700800</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:44.097699500Z</date>
+  <millis>1661238224097</millis>
+  <nanos>699500</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:44.102700800Z</date>
+  <millis>1661238224102</millis>
+  <nanos>700800</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:44.104703Z</date>
+  <millis>1661238224104</millis>
+  <nanos>703000</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-23T07:03:54.635780600Z</date>
+  <millis>1661238234635</millis>
+  <nanos>780600</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:54.667789100Z</date>
+  <millis>1661238234667</millis>
+  <nanos>789100</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:55.218911900Z</date>
+  <millis>1661238235218</millis>
+  <nanos>911900</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:55.245920500Z</date>
+  <millis>1661238235245</millis>
+  <nanos>920500</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:55.274925800Z</date>
+  <millis>1661238235274</millis>
+  <nanos>925800</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:55.280926400Z</date>
+  <millis>1661238235280</millis>
+  <nanos>926400</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:55.283927500Z</date>
+  <millis>1661238235283</millis>
+  <nanos>927500</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:55.289929200Z</date>
+  <millis>1661238235289</millis>
+  <nanos>929200</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-23T07:03:55.291930900Z</date>
+  <millis>1661238235291</millis>
+  <nanos>930900</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-23T07:18:21.836541400Z</date>
+  <millis>1661239101836</millis>
+  <nanos>541400</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-23T07:18:21.867546900Z</date>
+  <millis>1661239101867</millis>
+  <nanos>546900</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:18:22.431475200Z</date>
+  <millis>1661239102431</millis>
+  <nanos>475200</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:18:22.459479700Z</date>
+  <millis>1661239102459</millis>
+  <nanos>479700</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:18:22.481482200Z</date>
+  <millis>1661239102481</millis>
+  <nanos>482200</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:18:22.493483800Z</date>
+  <millis>1661239102493</millis>
+  <nanos>483800</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-23T07:18:22.496485900Z</date>
+  <millis>1661239102496</millis>
+  <nanos>485900</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-23T07:18:22.502487600Z</date>
+  <millis>1661239102502</millis>
+  <nanos>487600</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-23T07:18:22.505487700Z</date>
+  <millis>1661239102505</millis>
+  <nanos>487700</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-23T07:20:02.394866200Z</date>
+  <millis>1661239202394</millis>
+  <nanos>866200</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-23T07:20:02.425870200Z</date>
+  <millis>1661239202425</millis>
+  <nanos>870200</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:20:02.996962900Z</date>
+  <millis>1661239202996</millis>
+  <nanos>962900</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:20:03.028967700Z</date>
+  <millis>1661239203028</millis>
+  <nanos>967700</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:20:03.057974400Z</date>
+  <millis>1661239203057</millis>
+  <nanos>974400</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:20:03.070974800Z</date>
+  <millis>1661239203070</millis>
+  <nanos>974800</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-23T07:20:03.074976900Z</date>
+  <millis>1661239203074</millis>
+  <nanos>976900</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-23T07:20:03.081977600Z</date>
+  <millis>1661239203081</millis>
+  <nanos>977600</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-23T07:20:03.083978600Z</date>
+  <millis>1661239203083</millis>
+  <nanos>978600</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-23T07:20:55.392011300Z</date>
+  <millis>1661239255392</millis>
+  <nanos>11300</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-23T07:20:55.422016700Z</date>
+  <millis>1661239255422</millis>
+  <nanos>16700</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:20:56.042608800Z</date>
+  <millis>1661239256042</millis>
+  <nanos>608800</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:20:56.067612400Z</date>
+  <millis>1661239256067</millis>
+  <nanos>612400</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:20:56.092616200Z</date>
+  <millis>1661239256092</millis>
+  <nanos>616200</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:20:56.103620300Z</date>
+  <millis>1661239256103</millis>
+  <nanos>620300</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-23T07:20:56.106619900Z</date>
+  <millis>1661239256106</millis>
+  <nanos>619900</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-23T07:20:56.113620700Z</date>
+  <millis>1661239256113</millis>
+  <nanos>620700</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-23T07:20:56.115619300Z</date>
+  <millis>1661239256115</millis>
+  <nanos>619300</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-23T07:21:04.737189900Z</date>
+  <millis>1661239264737</millis>
+  <nanos>189900</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:04.767194300Z</date>
+  <millis>1661239264767</millis>
+  <nanos>194300</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:05.347291200Z</date>
+  <millis>1661239265347</millis>
+  <nanos>291200</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:05.374292700Z</date>
+  <millis>1661239265374</millis>
+  <nanos>292700</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:05.394296500Z</date>
+  <millis>1661239265394</millis>
+  <nanos>296500</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:05.401297500Z</date>
+  <millis>1661239265401</millis>
+  <nanos>297500</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:05.403298300Z</date>
+  <millis>1661239265403</millis>
+  <nanos>298300</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:05.409298600Z</date>
+  <millis>1661239265409</millis>
+  <nanos>298600</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:05.411300200Z</date>
+  <millis>1661239265411</millis>
+  <nanos>300200</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-23T07:21:11.145828Z</date>
+  <millis>1661239271145</millis>
+  <nanos>828000</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:11.176831800Z</date>
+  <millis>1661239271176</millis>
+  <nanos>831800</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:11.738150100Z</date>
+  <millis>1661239271738</millis>
+  <nanos>150100</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:11.765661400Z</date>
+  <millis>1661239271765</millis>
+  <nanos>661400</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:11.793641900Z</date>
+  <millis>1661239271793</millis>
+  <nanos>641900</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:11.800645100Z</date>
+  <millis>1661239271800</millis>
+  <nanos>645100</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:11.803645800Z</date>
+  <millis>1661239271803</millis>
+  <nanos>645800</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:11.810644700Z</date>
+  <millis>1661239271810</millis>
+  <nanos>644700</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:11.813645900Z</date>
+  <millis>1661239271813</millis>
+  <nanos>645900</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-23T07:21:23.383783200Z</date>
+  <millis>1661239283383</millis>
+  <nanos>783200</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:23.415788800Z</date>
+  <millis>1661239283415</millis>
+  <nanos>788800</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:23.988881900Z</date>
+  <millis>1661239283988</millis>
+  <nanos>881900</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:24.018887900Z</date>
+  <millis>1661239284018</millis>
+  <nanos>887900</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:24.040889900Z</date>
+  <millis>1661239284040</millis>
+  <nanos>889900</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:24.048892900Z</date>
+  <millis>1661239284048</millis>
+  <nanos>892900</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:24.051892700Z</date>
+  <millis>1661239284051</millis>
+  <nanos>892700</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:24.056893300Z</date>
+  <millis>1661239284056</millis>
+  <nanos>893300</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:24.058893800Z</date>
+  <millis>1661239284058</millis>
+  <nanos>893800</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-23T07:21:31.517198200Z</date>
+  <millis>1661239291517</millis>
+  <nanos>198200</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:31.546202800Z</date>
+  <millis>1661239291546</millis>
+  <nanos>202800</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:32.131952300Z</date>
+  <millis>1661239292131</millis>
+  <nanos>952300</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:32.161958500Z</date>
+  <millis>1661239292161</millis>
+  <nanos>958500</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:32.190964400Z</date>
+  <millis>1661239292190</millis>
+  <nanos>964400</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:32.198964200Z</date>
+  <millis>1661239292198</millis>
+  <nanos>964200</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:32.201964400Z</date>
+  <millis>1661239292201</millis>
+  <nanos>964400</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:32.211965200Z</date>
+  <millis>1661239292211</millis>
+  <nanos>965200</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-23T07:21:32.213965500Z</date>
+  <millis>1661239292213</millis>
+  <nanos>965500</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-23T07:23:12.797538Z</date>
+  <millis>1661239392797</millis>
+  <nanos>538000</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-23T07:23:12.830541700Z</date>
+  <millis>1661239392830</millis>
+  <nanos>541700</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:23:13.422639700Z</date>
+  <millis>1661239393422</millis>
+  <nanos>639700</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:23:13.448645900Z</date>
+  <millis>1661239393448</millis>
+  <nanos>645900</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:23:13.472646400Z</date>
+  <millis>1661239393472</millis>
+  <nanos>646400</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:23:13.478648600Z</date>
+  <millis>1661239393478</millis>
+  <nanos>648600</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-23T07:23:13.481648400Z</date>
+  <millis>1661239393481</millis>
+  <nanos>648400</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-23T07:23:13.486650200Z</date>
+  <millis>1661239393486</millis>
+  <nanos>650200</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-23T07:23:13.488649600Z</date>
+  <millis>1661239393488</millis>
+  <nanos>649600</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+<record>
+  <date>2022-08-23T07:23:13.597667300Z</date>
+  <millis>1661239393597</millis>
+  <nanos>667300</nanos>
+  <sequence>9</sequence>
+  <logger>javax.xml.bind</logger>
+  <level>WARNING</level>
+  <class>javax.xml.bind.ContextFinder</class>
+  <method>getDeprecatedSystemProperty</method>
+  <thread>1</thread>
+  <message>Using non-standard property: javax.xml.bind.context.factory. Property javax.xml.bind.JAXBContextFactory should be used instead.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-23T07:25:29.049819200Z</date>
+  <millis>1661239529049</millis>
+  <nanos>819200</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-23T07:25:29.085825100Z</date>
+  <millis>1661239529085</millis>
+  <nanos>825100</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:25:29.682923200Z</date>
+  <millis>1661239529682</millis>
+  <nanos>923200</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:25:29.710926200Z</date>
+  <millis>1661239529710</millis>
+  <nanos>926200</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-23T07:25:29.731929600Z</date>
+  <millis>1661239529731</millis>
+  <nanos>929600</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T07:25:29.737930600Z</date>
+  <millis>1661239529737</millis>
+  <nanos>930600</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-23T07:25:29.740930700Z</date>
+  <millis>1661239529740</millis>
+  <nanos>930700</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-23T07:25:29.746932300Z</date>
+  <millis>1661239529746</millis>
+  <nanos>932300</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-23T07:25:29.750934Z</date>
+  <millis>1661239529750</millis>
+  <nanos>934000</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-23T10:07:50.149830800Z</date>
+  <millis>1661249270149</millis>
+  <nanos>830800</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-08-23T10:07:50.179830300Z</date>
+  <millis>1661249270179</millis>
+  <nanos>830300</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-08-23T10:07:50.759831400Z</date>
+  <millis>1661249270759</millis>
+  <nanos>831400</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T10:07:50.784832100Z</date>
+  <millis>1661249270784</millis>
+  <nanos>832100</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-08-23T10:07:50.808833Z</date>
+  <millis>1661249270808</millis>
+  <nanos>833000</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-08-23T10:07:50.816831700Z</date>
+  <millis>1661249270816</millis>
+  <nanos>831700</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-08-23T10:07:50.818831300Z</date>
+  <millis>1661249270818</millis>
+  <nanos>831300</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-08-23T10:07:50.823831300Z</date>
+  <millis>1661249270823</millis>
+  <nanos>831300</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-08-23T10:07:50.825832700Z</date>
+  <millis>1661249270825</millis>
+  <nanos>832700</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+</log>

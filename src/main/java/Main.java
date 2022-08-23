@@ -77,6 +77,7 @@ public class Main {
 
         JAXBContext context = JAXBContext.newInstance(Info.class);
 
+
         JavaToJson.javaToJson(context);
         //JavaToXml.javaToXml(context);
 

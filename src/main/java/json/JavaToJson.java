@@ -11,9 +11,14 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.time.LocalDate;
+import java.util.logging.Logger;
 
 public class JavaToJson {
+    public static final Logger JavaToJsonLog = Logger.getLogger(JavaToJson.class.getName());
+
     public static void javaToJson (JAXBContext context) throws JAXBException, IOException {
+        JavaToJsonLog.info("Сериализация списков объектов в Json начата");
+
         Marshaller marshaller = context.createMarshaller();
 
         marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
@@ -29,6 +34,8 @@ public class JavaToJson {
         Info info = new Info();
 
         marshaller.marshal(info, file);
+        JavaToJsonLog.info("Сериализация списков объектов в Json завершена");
+
     }
 
 }

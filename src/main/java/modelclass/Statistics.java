@@ -26,6 +26,8 @@ public class Statistics {
         this.universityName = universityName;
     }
 
+    public Statistics () {}
+
     public StudyProfile getStudyProfile() {
         return studyProfile;
     }

@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73fc2bd0-e6be-45fd-853c-62795c5239b8" name="Changes" comment="29.5 (JAXB) - 1-4 OK&#10;5 - not OK">
+    <list default="true" id="73fc2bd0-e6be-45fd-853c-62795c5239b8" name="Changes" comment="29.5 (JAXB) - 1-10 OK (без доп задания)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.xml.0" beforeDir="false" afterPath="$PROJECT_DIR$/log.xml.0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JAXB/JavaToXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JAXB/JavaToXml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/json/JavaToJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/json/JavaToJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelclass/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelclass/Statistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelclass/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelclass/University.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/XmlFiles/exercise.xml_2022-08-22" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/statistics.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/statistics.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StatisticsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StatisticsUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,28 +37,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "false",
-    "last_opened_file_path": "C:/Users/Professional/IdeaProjects/blog20110819",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.40478382",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Professional/IdeaProjects/Project_24.7&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.40478382&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Professional\IdeaProjects\Project_24.7\src\main\java\modelclass" />
@@ -129,7 +122,14 @@
       <workItem from="1660594056598" duration="20914000" />
       <workItem from="1660817051194" duration="639000" />
       <workItem from="1660999291702" duration="48273000" />
-      <workItem from="1661252994568" duration="7849000" />
+      <workItem from="1661252994568" duration="8049000" />
+      <workItem from="1661345867507" duration="99000" />
+      <workItem from="1661347481464" duration="28000" />
+      <workItem from="1661945971808" duration="62000" />
+      <workItem from="1662107740909" duration="147000" />
+      <workItem from="1662113178656" duration="1058000" />
+      <workItem from="1662125515834" duration="16000" />
+      <workItem from="1663325556925" duration="452000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1658402564477</created>
@@ -292,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661253122778</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="29.5 (JAXB) - 1-10 OK (без доп задания)">
+      <created>1661285466391</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1661285466391</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +334,8 @@
     <MESSAGE value="28.7 (logging) - OK" />
     <MESSAGE value="29.5 (JAXB) - 1-4 OK" />
     <MESSAGE value="29.5 (JAXB) - 1-4 OK&#10;5 - not OK" />
-    <option name="LAST_COMMIT_MESSAGE" value="29.5 (JAXB) - 1-4 OK&#10;5 - not OK" />
+    <MESSAGE value="29.5 (JAXB) - 1-10 OK (без доп задания)" />
+    <option name="LAST_COMMIT_MESSAGE" value="29.5 (JAXB) - 1-10 OK (без доп задания)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

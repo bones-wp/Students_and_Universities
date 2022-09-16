@@ -1,5 +1,3 @@
-import jakarta.xml.bind.annotation.XmlElement;
-import jakarta.xml.bind.annotation.XmlElementWrapper;
 import modelclass.Statistics;
 import modelclass.Student;
 import modelclass.StudyProfile;
@@ -18,8 +16,6 @@ public class StatisticsUtil {
     private StatisticsUtil() {}
     public static final Logger statisticsLog = Logger.getLogger(StatisticsUtil.class.getName());
 
-    @XmlElementWrapper(name = "statisticalInfo")
-    @XmlElement(name = "statisticsEntry")
     public static List<Statistics> getStatistic(List<Student> studentList, List<University> universityList) {
         statisticsLog.info("Сбор статистики запущен");
         List<Statistics> statistics = new ArrayList<>();

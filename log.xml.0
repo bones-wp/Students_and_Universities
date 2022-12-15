@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-06T16:20:08.335541198Z</date>
+  <millis>1670343608335</millis>
+  <nanos>541198</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа запущена</message>
+</record>
+<record>
+  <date>2022-12-06T16:20:08.356675906Z</date>
+  <millis>1670343608356</millis>
+  <nanos>675906</nanos>
+  <sequence>1</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов начато</message>
+</record>
+<record>
+  <date>2022-12-06T16:20:08.729570529Z</date>
+  <millis>1670343608729</millis>
+  <nanos>570529</nanos>
+  <sequence>2</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Создание списка студентов завершено</message>
+</record>
+<record>
+  <date>2022-12-06T16:20:08.742960804Z</date>
+  <millis>1670343608742</millis>
+  <nanos>960804</nanos>
+  <sequence>3</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов начато</message>
+</record>
+<record>
+  <date>2022-12-06T16:20:08.758062163Z</date>
+  <millis>1670343608758</millis>
+  <nanos>62163</nanos>
+  <sequence>4</sequence>
+  <logger>Reader</logger>
+  <level>INFO</level>
+  <class>Reader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Создание списка университетов завершено</message>
+</record>
+<record>
+  <date>2022-12-06T16:20:08.759977953Z</date>
+  <millis>1670343608759</millis>
+  <nanos>977953</nanos>
+  <sequence>5</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getStudentsCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по среднему баллу студента</message>
+</record>
+<record>
+  <date>2022-12-06T16:20:08.761618059Z</date>
+  <millis>1670343608761</millis>
+  <nanos>618059</nanos>
+  <sequence>6</sequence>
+  <logger>comparators.NeedableComparator</logger>
+  <level>INFO</level>
+  <class>comparators.NeedableComparator</class>
+  <method>getUniversityCompare</method>
+  <thread>1</thread>
+  <message>Произведена сортировка по ID университета</message>
+</record>
+<record>
+  <date>2022-12-06T16:20:08.764696186Z</date>
+  <millis>1670343608764</millis>
+  <nanos>696186</nanos>
+  <sequence>7</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики запущен</message>
+</record>
+<record>
+  <date>2022-12-06T16:20:08.765910980Z</date>
+  <millis>1670343608765</millis>
+  <nanos>910980</nanos>
+  <sequence>8</sequence>
+  <logger>StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>StatisticsUtil</class>
+  <method>getStatistic</method>
+  <thread>1</thread>
+  <message>Сбор статистики завершён</message>
+</record>
+<record>
+  <date>2022-12-06T16:20:08.957123213Z</date>
+  <millis>1670343608957</millis>
+  <nanos>123213</nanos>
+  <sequence>9</sequence>
+  <logger>json.JavaToJson</logger>
+  <level>INFO</level>
+  <class>json.JavaToJson</class>
+  <method>javaToJson</method>
+  <thread>1</thread>
+  <message>Сериализация списков объектов в Json начата</message>
+</record>
+<record>
+  <date>2022-12-06T16:20:08.966057622Z</date>
+  <millis>1670343608966</millis>
+  <nanos>57622</nanos>
+  <sequence>10</sequence>
+  <logger>json.JavaToJson</logger>
+  <level>INFO</level>
+  <class>json.JavaToJson</class>
+  <method>javaToJson</method>
+  <thread>1</thread>
+  <message>Сериализация списков объектов в Json завершена</message>
+</record>
+<record>
+  <date>2022-12-06T16:20:08.966546062Z</date>
+  <millis>1670343608966</millis>
+  <nanos>546062</nanos>
+  <sequence>11</sequence>
+  <logger>JAXB.JavaToXml</logger>
+  <level>INFO</level>
+  <class>JAXB.JavaToXml</class>
+  <method>javaToXml</method>
+  <thread>1</thread>
+  <message>Сериализация списков объектов в XML начата</message>
+</record>
+<record>
+  <date>2022-12-06T16:20:08.968474660Z</date>
+  <millis>1670343608968</millis>
+  <nanos>474660</nanos>
+  <sequence>12</sequence>
+  <logger>JAXB.JavaToXml</logger>
+  <level>INFO</level>
+  <class>JAXB.JavaToXml</class>
+  <method>javaToXml</method>
+  <thread>1</thread>
+  <message>Сериализация списков объектов в XML завершена</message>
+</record>
+<record>
+  <date>2022-12-06T16:20:08.968759339Z</date>
+  <millis>1670343608968</millis>
+  <nanos>759339</nanos>
+  <sequence>13</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Программа завершена</message>
+</record>
+</log>
